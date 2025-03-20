@@ -22,7 +22,15 @@ This project follows a branch-based development approach, allowing efficient fea
 - **Version Control**: Git (Branch-Based Workflow)  
 
 ---
+## 🔗 API Integration  
+We use a **staging server** for API integration to test new features, validate API responses, and debug issues before deploying to production.  
 
+### **Staging API Setup**  
+- The API base URL is configured using **environment variables** to keep it secure.  
+- Update your `.env` file with:
+    ```plaintext
+  REACT_APP_API_BASE_URL=https://staging.example.com/api/
+  
 ## 🚀 Installation & Setup
 
 ### ✅ Prerequisites
